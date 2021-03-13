@@ -1,0 +1,29 @@
+{
+  "name": "@telenko/react-localizer",
+  "version": "0.0.1-beta",
+  "description": "Useful component and hooks to build lazy loading based localization",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo 'no tests yet :('"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/telenko/react-localizer.git"
+  },
+  "keywords": [
+    "react",
+    "localization",
+    "lazy",
+    "react-intl"
+  ],
+  "author": "Andrii Telenko",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/telenko/react-localizer/issues"
+  },
+  "homepage": "https://github.com/telenko/react-localizer#readme",
+  "dependencies": {
+    "react": "^17.0.1",
+    "react-intl": "^5.13.2"
+  }
+}
