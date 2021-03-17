@@ -1,0 +1,1 @@
+export const delay = tms => new Promise(r => setTimeout(r, tms));

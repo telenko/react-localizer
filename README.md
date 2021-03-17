@@ -40,7 +40,7 @@ Uses 'languagechange' API to detect browser language, then passes browser langua
 
 # using out-of-the-box component
 ```Typescript
-    import { Localizer } from '@telenko/react-localizer';
+    import Localizer from '@telenko/react-localizer/src/Localizer';
     import SomeGuiPage from '../somewhere/in/your/project/SomeGuiPage';
 
     //Some GUI page will be localized :)
