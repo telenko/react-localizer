@@ -4,7 +4,7 @@ const DEFAULT_LANGUAGE = 'en';
 
 export const normalizeLocale = (langToNormalize) => langToNormalize.split('-')[0];
 
-const vocabularyLoaderFactory = fetcher => async (lang, fallbackLang=DEFAULT_LANGUAGE) => {
+export const vocabularyLoaderFactory = fetcher => async (lang, fallbackLang=DEFAULT_LANGUAGE) => {
     try {
         return fetcher(lang);
     } catch(e) {

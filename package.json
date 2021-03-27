@@ -1,6 +1,6 @@
 {
   "name": "@telenko/react-localizer",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Useful component and hooks to build lazy loading based localization",
   "main": "index.js",
   "scripts": {
