@@ -6,4 +6,4 @@ export declare const useLanguage = (defaultLanguage?: string) => string;
 
 export declare const useLocalization = (vocabularyLoader: VocabularyLoader, defaultLanguage?: string) => [string, {}];
 
-export declare const vocabularyLoaderFactory = (fetcher: Promise<any>) => VocabularyLoader;
+export declare const vocabularyLoaderFactory = (fetcher: (lang: string) => Promise<any>) => VocabularyLoader;
